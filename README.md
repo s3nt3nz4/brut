@@ -1,6 +1,6 @@
 # brut
 
-Listen and watch here : https://s3nt3nz4.github.io/brut/index.html
+Listen and watch here : https://s3nt3nz4.github.io/brut/
 
 -------------------------------------------------------
 Tools :
