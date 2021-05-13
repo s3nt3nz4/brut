@@ -23,6 +23,14 @@ function draw() {
 	var side1 = map(vol, 0, 0.5, 10, w);
 	var side2 = map(vol, 0, 0.5, 10, h);
 
+	if (song.isPlaying() && touches.length == 1) {
+		song.pause();
+	}
+	if (!song.isPlaying() && touches.length == 1) {
+		song.play();
+	}
+
+
 	textAlign(LEFT, TOP);
 	textFont('Helvetica');
 	stroke(255);
