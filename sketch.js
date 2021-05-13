@@ -28,11 +28,11 @@ function draw() {
 	stroke(255);
 	textSize(10);
 
-	/* 	if (song.isPlaying()) {
-			text('Pause BRUT', 10, 10);
-		} else {
-			text('Play BRUT', 10, 10);
-		} */
+	if (song.isPlaying()) {
+		text('Pause BRUT', 10, 10);
+	} else {
+		text('Play BRUT', 10, 10);
+	}
 
 	fill(255);
 	rectMode(RADIUS);
