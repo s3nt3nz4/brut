@@ -28,11 +28,11 @@ function draw() {
 	stroke(255);
 	textSize(10);
 
-	/* 	if (song.isPlaying()) {
-			text('Pause BRUT', 10, 10);
-		} else {
-			text('Play BRUT', 10, 10);
-		} */
+	if (song.isPlaying()) {
+		text('Pause BRUT', 10, 10);
+	} else {
+		text('Play BRUT', 10, 10);
+	}
 
 	fill(255);
 	rectMode(RADIUS);
@@ -57,8 +57,4 @@ window.onresize = function () {
 	w = window.innerWidth;
 	h = window.innerHeight;
 	canvas.size(w, h);
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 91f33e8a4724bd48ca9f1bac6666b1c6da8217a3
