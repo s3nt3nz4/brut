@@ -46,9 +46,14 @@ function draw() {
 	rectMode(RADIUS);
 	rect(w / 2, h / 2, side1, side2);
 
-	if (vol > 0.3) {
+	if (vol > 0.25) {
 		fill(0);
 		rect(w / 2, h / 2, side1 / 2, side2 / 2);
+	}
+
+	if (vol > 0.3) {
+		fill(255);
+		rect(w / 2, h / 2, side1 / 3, side2 / 3);
 	}
 }
 
