@@ -57,4 +57,8 @@ window.onresize = function () {
 	w = window.innerWidth;
 	h = window.innerHeight;
 	canvas.size(w, h);
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 91f33e8a4724bd48ca9f1bac6666b1c6da8217a3
